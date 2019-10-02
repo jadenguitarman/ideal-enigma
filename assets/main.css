@@ -1,0 +1,45 @@
+#page1 svg {
+	position: absolute; 
+	top: 20vh; 
+	left: 25vw; 
+	width: 50vw; 
+	pointer-events: none;
+}
+
+.filter {
+	filter: drop-shadow(4px 4px 5px rgba(0,0,0,0.85));
+}
+
+#blend_into_background_logo {
+	filter: drop-shadow(4px 4px 10px rgba(17,17,17,0.85));
+}
+
+#installers {
+	margin-left: -25px;
+	z-index: 103;
+}
+
+#arrowhead {
+	left: 26.5vw !important;
+	transition: 2s top;
+}
+
+#arrow {
+	transition: 2s top;
+}
+
+#arrow_click_handler {
+	position: absolute;
+	z-index: 101;
+	width: 60px;
+	bottom: 0;
+	height: 125px;
+	right: calc(25vw - 15px);
+}
+
+.char {
+	font-size: 40px;
+	height: 40px;
+	animation: an 1s ease-out 1 both;
+	display: inline-block;
+}	
